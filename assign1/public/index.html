@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Assignment 0</title>
+    <title>Assignment 1</title>
 
     <!-- This line provides automatic page and style reloading when files change -->
     <script type="module" src="/lib/client/updater.js"></script>
@@ -12,6 +12,16 @@
   </head>
   <body>
     <h1>CS193X Assignment 1</h1>
-    <!-- TODO: Add inputs and buttons for part 3 here -->
+    <!-- Add inputs and buttons for part 3 here -->
+    <form id="declaration-form">
+      <label for="sunetid-input">SUNetID:</label>
+      <input type="text" id="sunetid-input" name="sunetid">
+      <br>
+      <label for="deptcode-input">Department Code:</label>
+      <input type="text" id="deptcode-input" name="deptcode">
+      <br>
+      <button type="button" id="declare-button">Declare</button>
+      <button type="button" id="graduate-button">Graduate</button>
+    </form>
   </body>
 </html>
