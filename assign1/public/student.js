@@ -24,7 +24,7 @@ class Student {
     if (this.isAlum) {
       throw new Error("Ah! No, if you graduated once, you can't declare again!");
     }
-    return this.dept && this.unitsCompleted >= this.dept.minUnits;
+    return this.dept && this.unitsCompleted >= 180;
   }
 }
 

@@ -23,7 +23,7 @@ class App {
     this.students = {};
     this.depts = {};
     for (const student of data.students) {
-      this.students[student.sunetid] = new Student(student.givenName, student.surname, student.sunetid);
+      this.students[student.sunetid] = new Student(student.sunetid, student.givenName, student.surname);
     }
 
 
