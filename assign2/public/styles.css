@@ -11,3 +11,39 @@
 }
 
 /*TODO*/
+input, button, textarea {
+  font-size: 1em;
+  font-family: sans-serif;
+}
+
+.edit, .startMove, .delete {
+  background-color: transparent;
+  border: none;
+}
+
+.edit:hover, .startMove:hover, .delete:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.moving {
+  border: 2px solid black;
+}
+
+.editDescription {
+  width: 100%;
+  height: 5em;
+  background-color: transparent;
+}
+
+.placeholder {
+  cursor: pointer;
+  font-size: 0.8em;
+  color: #808080;
+  background-color: transparent;
+}
+
+.placeholder:hover {
+  background-color: #e0e0e0;
+  color: #000000;
+}
