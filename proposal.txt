@@ -1,0 +1,13 @@
+Job applications and resume tailoring are crucial but often stressful aspects of the job search process.
+ It requires careful understanding and matching of job requirements, which is labor-intensive and time-consuming. 
+ So I am trying to build a system that leverages a language model to analyze job positions and auto-suggest 
+ improvements to a candidate's resume.
+
+
+Goals
+1. To build a system that accurately understands and interprets the requirements from a given job description.
+2. Using GPT-3/4 to suggest specific and relevant changes to an individual's resume based on these job requirements.
+3. To ensure the system can output an updated, tailored resume based on these suggestions, and fit it on the templates.
+4. (Stretch Goal) To implement a feature that uses the applicant's and the referrer's LinkedIn profile to construct 
+a meaningful and relevant referral request. I plan on using LinkedIn authentication for the process.
+
